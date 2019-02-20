@@ -21,8 +21,8 @@ class List extends Component {
 
     render() {
         return (
-            <li style={this.state.style} >
-                <span onClick={this.selected} >{this.props.item}</span>
+            <li style={this.state.style} onClick={this.selected} >{this.props.item}
+
             </li>
 
 

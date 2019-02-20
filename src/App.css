@@ -1,7 +1,11 @@
+
 .App {
   text-align: center;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-  font-size: 15px;
+  font-size: 15px;    background-color: rgb(255,255,255,0.5);
+    padding-bottom: 130px;
+    margin: -44px 60px;
+
 }
 
 .App-logo {
@@ -42,21 +46,20 @@
   }
 
   .setButtom{
-    width: 300px;
+    width: 400px;
     height:47px;
     
-     
+  
   }
   button{
     height:50px;
   }
   
 .set{
-
-font-family: Georgia, 'Times New Roman', Times, serif;
-
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 padding: 50px;
 margin:100px;
+
 
 }
 .cheked{
@@ -64,13 +67,27 @@ margin:100px;
 }
 
 ul {
-    width: 200px;
+    width: 80px;
     margin: 20px auto;
+    list-style: none;
 }
 
 li{
   padding:5px;
   font-size: 20px;
 }
+
+.button1{
+   border-radius:20px;
+   padding: 5px;
+   margin: 15px;
+}
+.button2{
+  border-radius: 15px;
+  width:90px; 
+}
+
+
+
 
 

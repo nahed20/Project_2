@@ -58,16 +58,16 @@ class App extends Component {
 
       <div className="App">
         <form onSubmit={this.clickSubmit} className="style">
-          <h1 className="set"> List Items </h1>
-
+          <h1 className="set">To Do List </h1>
           <input type="text" value={this.state.formData.item} onChange={this.hadelChange} className="setButtom" />
           <button type="submit" className="button1">Submit</button>
           <button onClick={this.clearList} className="button2">Clear List</button>
+
         </form>
+
         <ul>
           {lists}
         </ul>
-
       </div>
 
     )
