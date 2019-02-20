@@ -70,7 +70,7 @@ class App extends Component {
 
         <form onSubmit={this.clickSubmit} className="mb-3">
           <div className="input-group">
-            <input className="form-control" type="text" value={this.state.formData.item} onChange={this.hadelChange} />
+            <input className="form-control" type="text" placeholder="Enter task" value={this.state.formData.item} onChange={this.hadelChange} />
             <div className="input-group-append">
               <button type="submit" className="btn btn-outline-secondary">Submit</button>
               <button onClick={this.clearList} className="btn btn-outline-secondary">Clear List</button>
@@ -79,8 +79,9 @@ class App extends Component {
         </form>
         <div>
           {lists}
-          <footer className="-200"> Let start to Do list experaince </footer>
         </div>
+        <footer className="footer"> Copyright © 2019 By Nahed Hawsawi </footer>
+
       </div>
     )
 

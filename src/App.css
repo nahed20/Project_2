@@ -2,7 +2,9 @@
 .App {
   text-align: center;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-  font-size: 15px;  
+  font-size: 15px;
+  color:darkslateblue; 
+
     /* padding-bottom: 130px;
     margin: -44px 60px; */
 
@@ -17,7 +19,6 @@
     background: url(https://everydaypowerblog.com/wp-content/uploads/2017/03/76-Inspirational-picture-quotes-and-motivational-images.jpg);
     width:400p;
     height:400px;
-    color:#74b49b;
     background-size: cover;
   }
 
@@ -38,6 +39,13 @@ font-family:fantasy;
 }
 
 
-
+.footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 5rem;
+  text-align: center;
+}
 
 
