@@ -1,5 +1,7 @@
 
 ###To Do-List <br>
+
+![Alt Text](src\project_2.PNG)
  To Do list is a simple web application to save Your daily tasks in order not to miss anything and check the tasks has been done then deleted from list by click specific button  .
 <br>
 
