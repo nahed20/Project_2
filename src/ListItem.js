@@ -23,7 +23,7 @@ class List extends Component {
     render() {
         return (
             <p style={this.state.style} onClick={this.selected} > ✎ {this.props.item}
-                {this.clearItem}
+                {this.clearItem}{this.props.List}
             </p>
 
 

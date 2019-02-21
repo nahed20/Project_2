@@ -24,6 +24,7 @@ class App extends Component {
     })
   }
 
+  //add data to list
   clickSubmit = (event) => {
     event.preventDefault();
     //crearte new varible and save state data from list
@@ -52,35 +53,38 @@ class App extends Component {
       list: []
     })
   }
-
+  //clear single item from list 
   clearItem = (delet) => {
-    const remItem = this.state.list.splice(delet, 1)
+    const remItem = this.state.list.filter(items => {
+      return this.list !== delet
+    })
     this.setState({ formData: remItem })
+
   }
 
   render() {
     //set state to go through the map list to return list in new array
-    const lists = this.state.list.map(item => <ListItem item={item.item} clearItem={this.clearItems} />)
+    const lists = this.state.list.map(item =>
+      //pass item to listitem component through props
+      <ListItem item={item.item} clearItem={this.clearItems} />)
     return (
-
       <div className="App container p-5 mt-5">
-
-
         <h1 className="set">To Do List </h1>
-
         <form onSubmit={this.clickSubmit} className="mb-3">
           <div className="input-group">
-            <input className="form-control" type="text" placeholder="Enter task" value={this.state.formData.item} onChange={this.hadelChange} />
+            <input className="form-control" type="text"
+              placeholder="Enter task ...." value={this.state.formData.item} onChange={this.hadelChange} />
             <div className="input-group-append">
-              <button type="submit" className="btn btn-outline-secondary">Submit</button>
+              <button type="submit" className="btn btn-outline-secondary">Add</button>
               <button onClick={this.clearList} className="btn btn-outline-secondary">Clear List</button>
             </div>
           </div>
         </form>
         <div>
           {lists}
+          <span className="set2"> 😊 Let start to Do list App Experience </span>
         </div>
-        <footer className="footer"> Copyright © 2019 By Nahed Hawsawi </footer>
+        <span className="footer" >Copyright © 2019 By Nahed Hawsawi</span>
 
       </div>
     )

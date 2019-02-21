@@ -7,20 +7,17 @@
 
     /* padding-bottom: 130px;
     margin: -44px 60px; */
-
-}
-
-.container{
-    background-color: rgb(255,255,255,0.5);
-    font-family: inherit;
 }
 
   body{
     background: url(https://everydaypowerblog.com/wp-content/uploads/2017/03/76-Inspirational-picture-quotes-and-motivational-images.jpg);
-    width:400p;
     height:400px;
     background-size: cover;
   }
+.container{
+    background-color: rgb(255,255,255,0.5);
+    font-family: inherit;
+}
 
   p{
     text-align: left;
@@ -34,11 +31,10 @@
 .set{
 font-family:fantasy;
 }
+
 .cheked{
   display: inline;
 }
-
-
 .footer{
   position: absolute;
   right: 0;
@@ -46,6 +42,12 @@ font-family:fantasy;
   left: 0;
   padding: 5rem;
   text-align: center;
+  color: white;
 }
 
-
+.set2{
+ padding: 100px;
+ font-size: 18px;
+font-style: italic;
+  
+}
