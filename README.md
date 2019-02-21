@@ -26,6 +26,9 @@
 ## App demo :<br>
  https://nahed20.github.io/Project_2<br>
 
+ ## futuer plan 
+ 1-show notification mark and put deadline time when the task is completed .
+
 ## Acknowledgements/Thanks: <br>
 1-Mickael Finneran<br>
 2-Mr.Usman Bashir <br>
@@ -33,5 +36,5 @@
 4-Miss.Hala Almaimoni<br>
 2-Miss.Rawan <br>
 
- 
+
 
